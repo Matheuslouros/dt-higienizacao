@@ -112,7 +112,7 @@ const Layout = () => {
             <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
               <MessageCircle className="w-6 h-6" />
             </div>
-            <h3 className="font-heading text-lg">DT Higienização</h3>
+            <h3 className="font-heading text-lg">D&T Higienização</h3>
             <p className="text-white/80">{siteInfo.location}</p>
           </div>
           <div className="flex flex-col items-center gap-3">
@@ -148,8 +148,9 @@ const Layout = () => {
 
       <footer className="bg-dt-blue-dark border-t border-white/10 text-white/70">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-2 text-sm">
-          <span>© {new Date().getFullYear()} DT Higienização. Todos os direitos reservados.</span>
+          <span>© {new Date().getFullYear()} D&T Higienização. Todos os direitos reservados.</span>
           <span>Cuidando dos seus estofados com excelência.</span>
+          <span>Desenvolvido por <strong>Louros Development</strong> • Soluções em Websites</span>
         </div>
       </footer>
 
