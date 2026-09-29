@@ -42,7 +42,7 @@ const Contato = () => {
       <div className="text-center fade-up">
         <h1 className="text-white text-4xl sm:text-5xl md:text-6xl font-heading">Contato</h1>
         <p className="mt-5 max-w-2xl mx-auto text-white/90">
-          Entre em contato com a DT Higienização e solicite seu orçamento sem
+          Entre em contato com a D&T Higienização e solicite seu orçamento sem
           compromisso.
         </p>
       </div>
