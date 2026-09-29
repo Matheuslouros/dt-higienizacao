@@ -31,7 +31,7 @@ export const homeFeatures = [
 
 export const heroImages = [
   "https://2bb47f125f.cbaul-cdnwnd.com/237757de6f3bba6c338935c1da53fe48/200000024-065790657a/WhatsApp%20Image%202026-07-02%20at%2013.26.55.jpeg?ph=2bb47f125f",
-  "https://2bb47f125f.cbaul-cdnwnd.com/237757de6f3bba6c338935c1da53fe48/200000026-1db4d1db4f/WhatsApp%20Image%202026-07-10%20at%2007.03.23%20%281%29.jpeg?ph=2bb47f125f",
+  "https://raw.githubusercontent.com/Matheuslouros/DThigieniza-o/main/public/imagens/foto1.jpeg",
   "https://2bb47f125f.cbaul-cdnwnd.com/237757de6f3bba6c338935c1da53fe48/200000027-27ac027ac1/WhatsApp%20Image%202026-07-10%20at%2007.03.23.jpeg?ph=2bb47f125f",
 ];
 

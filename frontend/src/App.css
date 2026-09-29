@@ -115,7 +115,7 @@ html, body, #root { overflow-x: hidden; }
 }
 .team-photo-card img {
   object-fit: contain;
-  object-position: center top;
+  object-position: center center;
   background: #ffffff;
 }
 .team-photo-card:hover img { transform: none; }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
-import { Instagram, Phone, Menu, X } from "lucide-react";
+import { Instagram, Phone, MessageCircle, Menu, X } from "lucide-react";
 import { siteInfo, navLinks } from "../mock";
 
 const Layout = () => {
@@ -14,30 +14,6 @@ const Layout = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-dt-blue">
-      {/* Top thin bar */}
-      <div className="w-full bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between text-sm">
-          <a
-            href={siteInfo.instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#1B4FA8] hover:text-[#E15400] transition-colors flex items-center gap-2"
-            aria-label="Instagram"
-          >
-            <Instagram className="w-4 h-4" />
-          </a>
-          <a
-            href={`https://wa.me/${siteInfo.phoneRaw}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-[#1B4FA8] hover:text-[#E15400] transition-colors"
-          >
-            <Phone className="w-4 h-4" />
-            <span className="font-medium">{siteInfo.phone}</span>
-          </a>
-        </div>
-      </div>
-
       {/* Orange header */}
       <header className="bg-dt-orange text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6 text-center">
@@ -104,6 +80,58 @@ const Layout = () => {
       <main className="flex-1 bg-dt-blue text-white">
         <Outlet />
       </main>
+
+      {/* Bloco de contato antes do rodapé */}
+      <section className="bg-dt-blue-dark text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
+              <MessageCircle className="w-6 h-6" />
+            </div>
+            <h3 className="font-heading text-lg">D&amp;T Higienização</h3>
+            <p className="text-white/80">{siteInfo.location}</p>
+          </div>
+
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
+              <Phone className="w-6 h-6" />
+            </div>
+            <a
+              href={`https://wa.me/${siteInfo.phoneRaw}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-heading text-lg hover:text-[#E85C5C] transition-colors"
+            >
+              {siteInfo.phone}
+            </a>
+            <p className="text-white/80">WhatsApp</p>
+          </div>
+
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
+              <Instagram className="w-6 h-6" />
+            </div>
+            <a
+              href={siteInfo.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-heading text-lg hover:text-[#E85C5C] transition-colors"
+            >
+              {siteInfo.instagram}
+            </a>
+            <p className="text-white/80">Instagram</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Rodapé final */}
+      <footer className="bg-dt-blue-dark border-t border-white/10 text-white/70">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-2 text-sm">
+          <span>© {new Date().getFullYear()} D&amp;T Higienização. Todos os direitos reservados.</span>
+          <span>Cuidando dos seus estofados com excelência.</span>
+          <span>Desenvolvido por Matheus Louros soluções de web</span>
+        </div>
+      </footer>
 
       {/* Floating WhatsApp */}
       <a

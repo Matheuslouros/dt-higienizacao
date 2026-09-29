@@ -24,7 +24,7 @@ const Home = () => {
             <img src={heroImages[0]} alt="DT Serviços no Instagram" loading="lazy" />
           </a>
           <div className="img-card fade-up-delay-1 aspect-square">
-            <img src={heroImages[1]} alt="Antes e depois higienização" loading="lazy" />
+            <img src={heroImages[1]} alt="Nossos equipamentos e produtos D&T" loading="lazy" />
           </div>
           <div className="img-card fade-up-delay-2 aspect-square">
             <img src={heroImages[2]} alt="Trabalho em estofados" loading="lazy" />
