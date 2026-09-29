@@ -7,7 +7,7 @@ const Depoimentos = () => {
       <div className="text-center fade-up">
         <h1 className="text-white text-4xl sm:text-5xl md:text-6xl font-heading">Depoimentos</h1>
         <p className="mt-5 max-w-3xl mx-auto text-white/90 leading-relaxed">
-          Na DT Higienização, levamos a sério o cuidado com o seu sofá, cadeiras
+          Na D&T Higienização, levamos a sério o cuidado com o seu sofá, cadeiras
           e estofados automotivos. Nosso foco é devolver o conforto, a higiene e
           a aparência de novo aos seus estofados, com segurança e eficiência.
         </p>
