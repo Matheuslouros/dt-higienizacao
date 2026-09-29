@@ -1,7 +1,7 @@
-// Mocked data for DT Higienização replica
+// Mocked data for D&T Higienização replica
 
 export const siteInfo = {
-  brand: "DT Higienização",
+  brand: "D&T Higienização",
   tagline: "CUIDAMOS DO QUE ACOLHE VOCÊ",
   phone: "31 98704-1746",
   phoneRaw: "5531987041746",
