@@ -32,7 +32,7 @@ const Sobre = () => {
         <h1 className="text-dt-coral text-4xl sm:text-5xl md:text-6xl font-heading">Sobre nós</h1>
         <div className="mt-6 max-w-3xl text-white/90 leading-relaxed space-y-4">
           <p>
-            A DT Higienização é especializada em serviços de higienização de
+            A D&T Higienização é especializada em serviços de higienização de
             sofás, cadeiras e estofados automotivos, removendo sujeira, manchas
             e odores de forma profunda e segura. Utilizamos produtos e técnicas
             profissionais para garantir mais saúde, conforto e durabilidade para
