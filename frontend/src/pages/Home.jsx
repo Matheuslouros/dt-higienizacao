@@ -21,7 +21,7 @@ const Home = () => {
             rel="noopener noreferrer"
             className="img-card fade-up aspect-square"
           >
-            <img src={heroImages[0]} alt="DT Serviços no Instagram" loading="lazy" />
+            <img src={heroImages[0]} alt="D&T Serviços no Instagram" loading="lazy" />
           </a>
           <div className="img-card fade-up-delay-1 aspect-square">
             <img src={heroImages[1]} alt="Nossos equipamentos e produtos D&T" loading="lazy" />
@@ -36,10 +36,10 @@ const Home = () => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
         <div className="rounded-2xl bg-white/5 border border-white/10 p-8 sm:p-10 backdrop-blur-sm">
           <h2 className="text-dt-coral text-2xl sm:text-3xl md:text-4xl font-heading leading-snug">
-            Por que escolher a DT Higienização
+            Por que escolher a D&T Higienização
           </h2>
           <p className="mt-3 text-white/85 max-w-3xl">
-            A DT Higienização é especializada em serviços de higienização de sofás,
+            A D&T Higienização é especializada em serviços de higienização de sofás,
             cadeiras e estofados automotivos, removendo sujeira, manchas e odores
             de forma profunda e segura. Utilizamos produtos e técnicas
             profissionais para garantir mais saúde, conforto e durabilidade para
@@ -82,7 +82,7 @@ const Home = () => {
               Cuidando dos seus estofados com excelência
             </h2>
             <p className="mt-5 text-white/90 leading-relaxed">
-              Na DT Higienização cuidamos da limpeza completa de sofás, cadeiras
+              Na D&T Higienização cuidamos da limpeza completa de sofás, cadeiras
               e estofados automotivos, removendo sujeiras profundas, manchas e
               odores. Utilizamos produtos e equipamentos profissionais para
               garantir higienização segura e eficiente, preservando o tecido e
@@ -109,7 +109,7 @@ const Home = () => {
           </div>
 
           <div className="img-card team-photo-card max-w-md mx-auto w-full bg-white">
-            <img src={logoImage} alt="Equipe da DT Higienização" loading="lazy" />
+            <img src={logoImage} alt="Equipe da D&T Higienização" loading="lazy" />
           </div>
         </div>
       </section>
@@ -120,7 +120,7 @@ const Home = () => {
           Nosso trabalho na prática
         </h2>
         <p className="mt-3 text-center text-white/80 max-w-2xl mx-auto">
-          Confira alguns registros reais dos serviços realizados pela DT Higienização.
+          Confira alguns registros reais dos serviços realizados pela D&T Higienização.
         </p>
 
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
