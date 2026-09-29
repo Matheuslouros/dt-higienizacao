@@ -10,7 +10,7 @@ const Servicos = () => {
           Cuidando dos seus estofados com excelência
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-white/90 leading-relaxed">
-          Na DT Higienização cuidamos da limpeza completa de sofás, cadeiras e
+          Na D&T Higienização cuidamos da limpeza completa de sofás, cadeiras e
           estofados automotivos, removendo sujeiras profundas, manchas e odores.
           Utilizamos produtos e equipamentos profissionais para garantir
           higienização segura e eficiente, preservando o tecido e prolongando a
