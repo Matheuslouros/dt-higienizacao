@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
-import { Instagram, Phone, MessageCircle, Menu, X } from "lucide-react";
+import { Instagram, Phone, Menu, X } from "lucide-react";
 import { siteInfo, navLinks } from "../mock";
 
 const Layout = () => {
@@ -104,48 +104,6 @@ const Layout = () => {
       <main className="flex-1 bg-dt-blue text-white">
         <Outlet />
       </main>
-
-      {/* Contact block (mimics footer contact info) */}
-      <section className="bg-dt-blue-dark text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div className="flex flex-col items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-              <MessageCircle className="w-6 h-6" />
-            </div>
-            <h3 className="font-heading text-lg">DT Higienização</h3>
-            <p className="text-white/80">{siteInfo.location}</p>
-          </div>
-          <div className="flex flex-col items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-              <Phone className="w-6 h-6" />
-            </div>
-            <a
-              href={`https://wa.me/${siteInfo.phoneRaw}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-heading text-lg hover:text-[#E85C5C] transition-colors"
-            >
-              {siteInfo.phone}
-            </a>
-            <p className="text-white/80">WhatsApp</p>
-          </div>
-          <div className="flex flex-col items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-              <Instagram className="w-6 h-6" />
-            </div>
-            <a
-              href={siteInfo.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-heading text-lg hover:text-[#E85C5C] transition-colors"
-            >
-              {siteInfo.instagram}
-            </a>
-            <p className="text-white/80">Instagram</p>
-          </div>
-        </div>
-      </section>
-
 
       {/* Floating WhatsApp */}
       <a
