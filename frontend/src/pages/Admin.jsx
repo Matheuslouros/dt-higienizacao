@@ -110,7 +110,7 @@ function Admin() {
         <div className="flex flex-wrap justify-between items-center gap-4 mb-8">
           <div>
             <p className="text-orange-300 text-xs font-semibold tracking-[0.2em] uppercase mb-2">Área administrativa • D&amp;T Higienização</p>
-            <h1 className="text-3xl sm:text-4xl font-heading">Painel Matheus Louros</h1>
+            <h1 className="text-3xl sm:text-4xl font-heading">ADM D&amp;T Higienização</h1>
             <p className="text-white/75 mt-2">Página exclusiva de gestão do site D&amp;T Higienização.</p>
           </div>
           {user && <button className="inline-flex items-center gap-2 rounded-lg border border-white/30 px-4 py-2 hover:bg-white/10" onClick={() => perform(async () => { await logoutAdmin(); setUser(null); setMedia([]); setMessage("Você saiu do painel."); })}><LogOut size={18} /> Sair</button>}
