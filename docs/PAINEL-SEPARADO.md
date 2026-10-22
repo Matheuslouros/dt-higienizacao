@@ -4,7 +4,7 @@
 
 - Site público: `/` (sem opções de edição).
 - Painel privado: `/painel` (também disponível em `/admin`).
-- Cabeçalho do painel: **Painel Matheus Louros** | D&T Higienização.
+- Cabeçalho do painel: **ADM D&T Higienização**.
 - Gestão de fotos, vídeos, títulos e senha. As novas mídias aparecem na Home e na página de Depoimentos; as mídias antigas continuam intactas.
 
 ## Banco de dados (já pronto)
