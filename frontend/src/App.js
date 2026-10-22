@@ -7,6 +7,7 @@ import Sobre from "./pages/Sobre";
 import Servicos from "./pages/Servicos";
 import Depoimentos from "./pages/Depoimentos";
 import Contato from "./pages/Contato";
+import Admin from "./pages/Admin";
 import { Toaster } from "./components/ui/toaster";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          {/* Página separada, sem menu ou rodapé do site público. */}
+          <Route path="/painel" element={<Admin />} />
+          <Route path="/admin" element={<Admin />} />
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="sobre-nos" element={<Sobre />} />
