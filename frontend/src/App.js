@@ -8,6 +8,7 @@ import Servicos from "./pages/Servicos";
 import Depoimentos from "./pages/Depoimentos";
 import Contato from "./pages/Contato";
 import { Toaster } from "./components/ui/toaster";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Toaster />
+      <SpeedInsights />
     </div>
   );
 }
